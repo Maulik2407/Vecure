@@ -1,0 +1,115 @@
+/* .bgg { border: 4px solid red;} */
+
+
+/* .bkk { border: 4px solid rgb(26, 255, 0);} */
+.bnn {
+    border: 4px solid rgb(0, 38, 255);
+}
+
+/* .baa { border: 4px solid rgb(255, 0, 191);} */
+
+
+.button-box:hover {
+    transition: .5s ease-in-out;
+    transform: scale(1.1);
+    box-shadow: rgba(255, 255, 255, 0.895) 0px 0px 9px 0px;
+}
+
+
+.image-box {
+    transition: 4s ease-in-out;
+}
+
+.image-box:hover {
+    transform: translateY(30px);
+    rotate: 2deg;
+    transition: 4s ease-in-out;
+}
+
+
+.card-box {
+    opacity: 0;
+    top: 0;
+    transition: .7s ease-in-out;
+
+}
+
+.card-box:hover {
+    opacity: 1;
+    transition: .7s ease-in-out;
+
+}
+
+.card-box-2 {
+    opacity: 0;
+    top: 0;
+    left: -220px;
+    transition: 1s ease-in-out;
+}
+
+.card:hover .card-box-2 {
+    opacity: 1;
+    left: 0px;
+    transition: 1s ease-in-out;
+
+}
+
+.card-box-3 {
+    opacity: 0;
+    top: -220px;
+    transition: 1s ease-in-out;
+}
+
+.card:hover .card-box-3 {
+    opacity: 1;
+    top: 0px;
+    transition: 1s ease-in-out
+
+}
+
+.first-card:hover {
+    transition: .5s ease-in-out;
+    background-color: rgba(72, 237, 113, 0.779);
+
+}
+
+
+.blue-line {
+    transition: 2s ease-in-out;
+    transform: translateY(250px);
+}
+
+.blue-line:hover {
+    transform: translateY(-600px);
+    transform: scale(1.1);
+    transition: 2s ease-in-out;
+}
+
+.bb-box {
+    border-radius: 30px;
+    border: 2px solid white;
+    transition: .5s ease-in-out;
+}
+
+.bb-box:hover {
+    border: 2px solid rgba(42, 42, 248, 0.761);
+    transition: .5s ease-in-out;
+}
+
+.text-box {
+    animation-name: ttx;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ttx {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+}
+
